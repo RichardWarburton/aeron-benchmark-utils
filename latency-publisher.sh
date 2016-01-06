@@ -1,0 +1,1 @@
+java -cp samples.jar -XX:+UnlockDiagnosticVMOptions -XX:GuaranteedSafepointInterval=300000 -Daeron.sample.messages=1000000 -Daeron.sample.messageLength=40 -Dagrona.disable.bounds.checks=true uk.co.real_logic.aeron.samples.Ping

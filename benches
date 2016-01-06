@@ -1,0 +1,19 @@
+int ipc:
+	Duration 1000ms - 20,971,473 messages - 838,858,920 bytes
+long ipc:
+	Duration 1000ms - 20,963,205 messages - 838,528,200 bytes
+
+int throughput:
+	2.3e+07 msgs/sec, 9.1e+08 bytes/sec, totals 103220527 messages 3937 MB
+long throughput:
+	2.3e+07 msgs/sec, 9.1e+08 bytes/sec, totals 351827712 messages 13421 MB
+
+int latency:
+	6.055 0.500000000000     500694           2.00
+	7.531 0.990625000000     990654         106.67
+	16.463 0.999023437500     999028        1024.00
+
+long latency:
+	6.127 0.500000000000     500362           2.00
+	7.535 0.990625000000     990647         106.67
+	16.495 0.999023437500     999024        1024.00
